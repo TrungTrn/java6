@@ -20,4 +20,3 @@ public interface AccountRepo extends JpaRepository<Account, String>{
 	Long countCustomer(@Param("role") String role);
 
 }
-
